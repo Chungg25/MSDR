@@ -71,7 +71,7 @@ def train(conf, data_category):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--type', default='taxi', type=str,
+    parser.add_argument('--type', default='bike', type=str,
                         help='Type of dataset for training the model.')
     args = parser.parse_args()
     con = "config-" + args.type
